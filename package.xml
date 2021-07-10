@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ur_e_description</name>
+  <version>1.0.0</version>
+  <description>
+      Description packages for Universal Robots that is compatible to generate OpenRAVE's IKFast model.
+  </description>
+
+  <author>Thach Do</author>
+  <maintainer email="thachdovan@gmail.com">Thach Do</maintainer>
+
+  <!--TODO-->
+  <license>BSD</license>
+
+  <url type="website">https://github.com/thachdo/ur_e_description</url>
+  <url type="bugtracker">https://github.com/thachdo/ur_e_description/issues</url>
+  <url type="repository">https://github.com/thachdo/ur_e_description</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>urdf</exec_depend>
+  <exec_depend>xacro</exec_depend>
+
+</package>
